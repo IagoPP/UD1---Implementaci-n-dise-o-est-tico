@@ -8,7 +8,22 @@ body{
 }
 
 header{
+    background-color: #B17457;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
 
+nav{
+    width: 310px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+}
+
+nav img{
+    height: 50px;
 }
 
 main{
@@ -46,6 +61,7 @@ main{
     padding: 1em;
     width: 750px;
     box-shadow: 1em 1em #242222;
+    margin-bottom: 5em;
 }
 
 #panelborder>div{
@@ -57,7 +73,6 @@ main{
     background-color: #B17457;
     display: flex;
     flex-wrap: wrap;
-    /*width: 708px;*/
     padding: 1em;
 }
 #panel section{
@@ -119,10 +134,52 @@ main{
 }
 
 
-/**
-main{
+footer{
+    background-color: #242222;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    color: #FAF7F0;
 }
-*/
+
+footer>article{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer>article>section{
+    width: 100%;
+    margin:2em;
+}
+
+footer>article>section:first-child{
+    margin-left: 8em;
+}
+
+footer img{
+    height: 100px;
+}
+
+footer section p:first-child{
+    font-weight: 600;
+}
+
+span{
+    display: flex;
+}
+
+span p{
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+
+#loc{
+    height: 20px;
+    margin-right: 8px;
+}
+
+#socials img{
+    height: 35px;
+    margin: 5px;
+}
