@@ -4,4 +4,82 @@ html{
 
 body{
     background-color: #4A4947;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+/*Header*/
+header{
+    background-color: #B17457;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    width: 310px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+}
+
+nav img{
+    height: 45px;
+}
+
+nav img:hover{
+    opacity: 50%;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #242222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FAF7F0;
+}
+
+footer>article{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer>article>section{
+    width: 100%;
+    margin:2em;
+}
+
+footer>article>section:first-child{
+    margin-left: 8em;
+}
+
+footer img{
+    height: 100px;
+}
+
+footer section p:first-child{
+    font-weight: 600;
+}
+
+span{
+    display: flex;
+}
+
+span p{
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+
+#loc{
+    height: 20px;
+    margin-right: 8px;
+}
+
+#socials img{
+    height: 35px;
+    margin: 5px;
 }
