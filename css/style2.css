@@ -31,6 +31,16 @@ select{
     display: flex;
     flex-wrap: wrap;
     width: auto;
+    color: #242222;
+}
+
+#products a{
+    color:#242222;
+    text-decoration: none;
+}
+
+#products a:hover{
+    color:#B17457
 }
 
 #products section{

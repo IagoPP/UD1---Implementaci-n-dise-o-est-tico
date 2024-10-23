@@ -6,7 +6,49 @@ body{
     background-color: #4A4947;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    width: 100%;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+
+}
+
+main img{
+    object-fit: contain;
+    width: 250px;
+}
+
+main article{
+    color: #FAF7F0;
+    display: flex;
+    margin: 4em;
+}
+
+main article h1{
+    color: #B17457;
+}
+
+main article section{
+    margin: 4em;
+    width: 500px;
+}
+
+main article section button{
+    color: #FAF7F0;
+    background-color: #B17457;
+    border-width: 0cap;
+    font-size:medium;
+    padding: 0.5em;
+    margin: 1em;
+    width: 80px;
+    font-weight: 600;
+}
+
+main article section button:hover{
+    color: #4A4947;
+    background-color: #FAF7F0;
+}
 
 
