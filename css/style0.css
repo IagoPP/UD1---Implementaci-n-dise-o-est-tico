@@ -16,6 +16,11 @@ header{
     justify-content: space-between;
 }
 
+header>a img{
+    object-fit: contain;
+    width: 520px;
+}
+
 nav{
     width: 310px;
     display: flex;
