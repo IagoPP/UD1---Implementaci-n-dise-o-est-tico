@@ -37,6 +37,12 @@ nav img:hover{
     opacity: 50%;
 }
 
+/*main*/
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
 /*Footer*/
 
 footer{

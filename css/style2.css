@@ -5,6 +5,7 @@ main{
     margin-top: 4em;
     margin-bottom: 4em;
     margin:4em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 aside{
@@ -12,8 +13,8 @@ aside{
     color: #242222;
     padding: 2.5em;
     margin-right: 1.5em;
-    width: 14em;
-    min-width: 14em;
+    width: 12em;
+    min-width: 12em;
     margin-bottom: 3em;
 }
 
@@ -33,13 +34,9 @@ aside section{
     color: #242222;
 }
 
-#products a{
-    color:#242222;
-    text-decoration: none;
-}
-
-#products a:hover{
-    color:#B17457
+#products section:hover{
+    color:#B17457;
+    cursor: pointer;
 }
 
 #products section{

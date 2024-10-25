@@ -4,22 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style0.css">
     <link rel="stylesheet" href="css/style2.css">
-
-    <title>catalogo</title>
+    <script src="script/script.js"></script>
+    <script src="script/script2.js"></script>
+    <title>Catálogo</title>
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><img src="img/Logo.png" alt="logo"></a>
-        <nav>
-            <img src="img/icons8-find-96.png" alt="">
-            <img src="img/icons8-cart-64.png" alt="">
-            <a href="usuario.html"><img src="img/icons8-user-menu-male-96.png" alt=""></a>
-            <img src="img/icons8-menu-squared-100.png" alt="">
-        </nav>
-    </header>
     <main>
         <aside>
             <input type="text" name="searchbox" id="searchbox" placeholder="Buscar...">
@@ -28,33 +19,31 @@
                 <div>
                     <input type="radio" name="categ" id="cardgame">
                     <label for="cardgame">Juegos de cartas
-                <div>
-                    <input type="radio" name="categ" id="boardgame">
-                    <label for="boardgame">Juegos de mesa</label>
-                </div>
-                <div>
-                    <input type="radio" name="categ" id="rol">
-                    <label for="rol">ROL</label>
-                </div>
-                <div>
-                    <input type="radio" name="categ" id="wargame">
-                    <label for="wargame">war games</label>
-                </div>
-                <div>
-                    <input type="radio" name="categ" id="accesory">
-                    <label for="accesory">accesorios</label>
-                </div>
-                <div>
-                    <input type="radio" name="categ" id="dice">
-                    <label for="dice">dados</label>
-                </div>
-                
-                
+                        <div>
+                            <input type="radio" name="categ" id="boardgame">
+                            <label for="boardgame">Juegos de mesa</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="categ" id="rol">
+                            <label for="rol">ROL</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="categ" id="wargame">
+                            <label for="wargame">war games</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="categ" id="accesory">
+                            <label for="accesory">accesorios</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="categ" id="dice">
+                            <label for="dice">dados</label>
+                        </div>
             </section>
-            
+
             <h4>Número de jugadores</h4>
             <section>
-                <select name="players" id="players" >
+                <select name="players" id="players">
                     <option value="1">1 Jugador</option>
                     <option value="2">2 Jugadores</option>
                     <option value="3">3+ Jugadores</option>
@@ -64,126 +53,64 @@
             <img src="img/descunto.webp" alt="promo" id="imgpromo">
         </aside>
         <article id="products">
-            <a href="producto.html">
-                <section>
-                    <h4>Mago Oscuro del Caos</h4>
-                    <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
-                    
-                    <p>Condición: mint</p>
-                    <p>Precio: <em>10.94€</em></p>
-                </section>
-            </a>
-            <a href="producto.html">
-                <section>
-                    <h4>Mago Oscuro del Caos</h4>
-                    <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
-                    <p>Condición: mint</p>
-                    
-                    <p>Precio: <em>10.94€</em></p>
 
-            </a>
+            <section onclick="changePage('producto.html')">
+                <h4>Mago Oscuro del Caos</h4>
+                <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
+
+                <p>Condición: mint</p>
+                <p>Precio: <em>10.94€</em></p>
             </section>
-            <a href="producto.html">
-                
-            </a>
-            <a href="producto.html">
-                <section>
-                    <h4>Mago Oscuro del Caos</h4>
-                    <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
-                    <p>Condición: mint</p>
-                    
-                    <p>Precio: <em>10.94€</em></p>
-                </section>
-                
-            </a>
-            <a href="producto.html">
-                
-                <section>
-                    <h4>Mago Oscuro del Caos</h4>
-                    <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
-                    <p>Condición: mint</p>
-                    
-                    <p>Precio: <em>10.94€</em></p>
-                </section>
-            </a>
-            <a href="producto.html">
-                <section>
-                    <h4>Mago Oscuro del Caos</h4>
-                    <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
-                    <p>Condición: mint</p>
-                    
-                    <p>Precio: <em>10.94€</em></p>
-                </section>       
+            <section onclick="changePage('producto.html')">
+                <h4>Mago Oscuro del Caos</h4>
+                <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
+                <p>Condición: mint</p>
 
-            </a>
-            <a href="producto.html">
-                <section>
-                    <h4>Mago Oscuro del Caos</h4>
-                    <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
-                    <p>Condición: mint</p>
-                    
-                    <p>Precio: <em>10.94€</em></p>
-                </section>
+                <p>Precio: <em>10.94€</em></p>
+            </section>
+            <section onclick="changePage('producto.html')">
+                <h4>Mago Oscuro del Caos</h4>
+                <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
+                <p>Condición: mint</p>
 
-            </a>
-            <a href="producto.html">
-                <section>
-                    <h4>Mago Oscuro del Caos</h4>
-                    <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
-                    <p>Condición: mint</p>
-                    
-                    <p>Precio: <em>10.94€</em></p>
-                </section>
+                <p>Precio: <em>10.94€</em></p>
+            </section>
+            <section onclick="changePage('producto.html')">
+                <h4>Mago Oscuro del Caos</h4>
+                <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
+                <p>Condición: mint</p>
 
-            </a>
-            <a href="producto.html">
-                <section>
-                    <h4>Mago Oscuro del Caos</h4>
-                    <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
-                    <p>Condición: mint</p>
-                    
-                    <p>Precio: <em>10.94€</em></p>
-                </section>
+                <p>Precio: <em>10.94€</em></p>
+            </section>
+            <section onclick="changePage('producto.html')">
+                <h4>Mago Oscuro del Caos</h4>
+                <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
+                <p>Condición: mint</p>
 
-            </a>
+                <p>Precio: <em>10.94€</em></p>
+            </section>
+            <section onclick="changePage('producto.html')">
+                <h4>Mago Oscuro del Caos</h4>
+                <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
+                <p>Condición: mint</p>
+
+                <p>Precio: <em>10.94€</em></p>
+            </section>
+            <section onclick="changePage('producto.html')">
+                <h4>Mago Oscuro del Caos</h4>
+                <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
+                <p>Condición: mint</p>
+
+                <p>Precio: <em>10.94€</em></p>
+            </section>
+            <section onclick="changePage('producto.html')">
+                <h4>Mago Oscuro del Caos</h4>
+                <div><img src="img/productos/cartas/YGLD-SPC02.webp" alt="cdm"></div>
+                <p>Condición: mint</p>
+
+                <p>Precio: <em>10.94€</em></p>
+            </section>
         </article>
     </main>
-    <footer>
-        <article>
-            <section>
-                <p>Textos Legales</p>
-                <hr>
-                <p>> ¿Quíenes Somos?</p>
-                <p>> Aviso Legal</p>
-                <p>> Política de Privacidad</p>
-                <p>> Condiciones de Venta</p>
-            </section>
-            <section>
-                <p>Contacto</p>
-                <hr>
-                <p>Mazmorras y Cartones</p>
-                <span><img src="img/icons8-location-64.png" alt="location" id="loc">
-                    <p>Avenida Finisterre, 99, 15004 - A Coruña</p>
-                </span>
-                <span><img src="img/icons8-phone-number-90.png" alt="location" id="loc">
-                    <p> 981 90 52 02</p>
-                </span>
-                <span><img src="img/icons8-mail-96.png" alt="location" id="loc">
-                    <p> info@mazmorrasycartones.com</p>
-                </span>
-            </section>
-            <section>
-                <p>Síguenos</p>
-                <hr>
-                <span id="socials">
-                    <img src="img/icons8-facebook-100.png" alt="">
-                    <img src="img/icons8-twitter-100.png" alt="">
-                    <img src="img/icons8-instagram-128.png" alt="">
-                </span>
-            </section>
-        </article>
-        <img src="img/Logo.png" alt="logo">
-    </footer>
-</body>
 
 </html>

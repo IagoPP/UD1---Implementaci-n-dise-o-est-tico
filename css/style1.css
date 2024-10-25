@@ -1,3 +1,4 @@
+
 main{
     display: flex;
     flex-direction: column;
@@ -85,11 +86,12 @@ main{
     font-weight: 900;
     font-size: 140%;
     -webkit-text-stroke: 1.5px black;
-    opacity:0;
+    opacity: 0;
 }
 
 .inverted:hover{
     opacity: 1;
+    cursor: pointer;
 }
 
 #panel section:nth-child(1){
