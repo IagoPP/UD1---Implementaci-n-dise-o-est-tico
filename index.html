@@ -6,24 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style0.css">
     <script src="script/script.js"></script>
-    <script src="script/script2.js"></script>
+    <script>
+        function resizeIframe(height) {
+            const iframe = document.getElementById('myIframe');
+            iframe.style.height = height + 'px';
+        }
+
+        // Listen for messages from the iframe
+        window.addEventListener('message', function (event) {
+            // Optionally, check the event.origin to ensure it’s coming from a trusted source
+            if (event.data && event.data.type === 'resizeIframe') {
+                resizeIframe(event.data.height);
+            }
+        });
+    </script>
     <title>Cartones y Mazmorras</title>
 </head>
 
-<body>
+<body onload="resizeIframe()">
     <header>
-        <a href="index.html"><img src="img/Logo.png" alt="logo"></a>  
+        <img src="img/Logo.png" alt="logo" onclick="changePage('homepage.html')">
         <nav>
             <img src="img/icons8-find-96.png" alt="">
             <img src="img/icons8-cart-64.png" alt="">
-            <a href="usuario.html"><img src="img/icons8-user-menu-male-96.png" alt=""></a>
+            <img src="img/icons8-user-menu-male-96.png" alt="" onclick="changePage('usuario.html')">
             <img src="img/icons8-menu-squared-100.png" alt="">
         </nav>
     </header>
 
-    <iframe src="homepage.html" frameborder="0" scrolling="no" onload="resizeIframe(this)" id="iframe"></iframe>
+    <iframe src="homepage.html" frameborder="0" scrolling="no" id="myIframe"></iframe>
 
-    <footer> 
+    <footer>
         <article>
             <section>
                 <p>Textos Legales</p>

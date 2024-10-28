@@ -2,20 +2,20 @@ main{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-top: 4em;
-    margin-bottom: 4em;
+    padding-bottom: 4em;
     margin:4em;
+
     font-family: Arial, Helvetica, sans-serif;
 }
 
 aside{
     background-color: #B17457;
     color: #242222;
-    padding: 2.5em;
+    padding: 2.5em 2.5em 0em 2.5em;
     margin-right: 1.5em;
+    margin-bottom: 3em;
     width: 12em;
     min-width: 12em;
-    margin-bottom: 3em;
 }
 
 label{
@@ -59,8 +59,7 @@ aside section{
 }
 
 #products section div{
-    height: 200px;
-    
+    height: 200px;  
 }
 
 #products section div img{
@@ -68,6 +67,7 @@ aside section{
     height: 100%;
     object-fit: contain; 
 }
+
 
 #imgpromo{
     margin-top: 2em;
